@@ -110,12 +110,16 @@
     line-height: 50px;
 }
 
-#nav-menu a{
+#desktop-menu a{
     padding: 0 2px;
 }
 
-#nav-menu a:hover{
+#desktop-menu a:hover{
     border-bottom: 1px solid rgba(0,0,0,.5);
+}
+
+#mobile-menu {
+    display: none;
 }
 
 /* INFO PANEL */
@@ -199,6 +203,3 @@
     max-width:720px;
 }
 
-#mobile-menu {
-    display: none;
-}
