@@ -15,8 +15,8 @@
     flex-direction: column;
     align-content: flex-start;
     padding: 20px;
-    font-size: 1.75rem;
-    letter-spacing:-0.04rem
+    font-size: .85rem;
+    letter-spacing: -0.008rem;
 }    
 #mobile-menu-toggle{padding-right: 20px}
 #mobile-menu-close{padding-right: 20px}
