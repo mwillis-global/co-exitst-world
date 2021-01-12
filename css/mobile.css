@@ -15,13 +15,14 @@
     flex-direction: column;
     align-content: flex-start;
     padding: 20px;
-    font-size: 2rem;
+    font-size: 1.75rem;
     letter-spacing:-0.04rem
 }    
 #mobile-menu-toggle{padding-right: 20px}
 #mobile-menu-close{padding-right: 20px}
 #info-helper{display: none}
 #info-about{width: 100%;}
+#info-colophon{font-size: .8rem;}
     
 .content{width:100%;padding: 20px}
 .content p{max-width: inherit;}
