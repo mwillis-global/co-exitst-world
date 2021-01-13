@@ -53,7 +53,6 @@ img,
 picture {
   max-width: 100%;
   display: block;
-margin: 0 auto;
 }
 
 
@@ -139,10 +138,9 @@ p a{
 }
 
 small {
-    display: block; 
-    font-size:.8rem!important;
-    line-height:1.4 !important;
-    letter-spacing:0!important;
+    display: block;
+    font-size: .85rem;
+    letter-spacing: -0.008rem;
 }
 
 
