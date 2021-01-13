@@ -1,0 +1,177 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{    
+    font-size: 16px;
+    height: 100%;
+}
+
+body{
+    font-family: 'ArialMT', Helvetica Neue, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.2;
+    color: rgba(0,0,0,.9);
+    letter-spacing: -0.0085rem;
+    background-color: #fff;
+}
+
+img {
+    max-width: 100% !important;
+    display: block;
+}
+
+video {
+    max-width: 100% !important;
+    height: auto;
+}
+
+.is-visible {
+    visibility: visible;
+    opacity: 1;
+}
+
+.not-visible {
+    visibility: hidden;
+    opacity: 0;
+}
+
+#loading {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -120px;
+    
+    z-index: 999;
+    visibility: hidden;
+    opacity: 0;
+    
+    -webkit-transition: opacity 1.3s 0s, visibility 0s 1.3s;
+    -moz-transition: opacity 1.3s 0s, visibility 0s 1.3s;
+    transition: opacity 1.3s 0s, visibility 0s 1.3s;
+}
+
+#content-feed {
+    position: relative;
+}
+
+
+
+/* ARENA TEMPLATES */
+
+#posts-container {
+    padding: 50px 200px;
+}
+
+.post {
+    width: 100%;
+    margin-bottom: 12%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.post a{
+    align-self:flex-start;
+}
+
+.post img {
+    max-width: 100% !important;
+    padding: 0;
+    /margin: 0 auto;
+
+}
+
+post video {
+    max-width: 100% !important;
+    height: auto;
+}
+
+.post p{
+    padding: 10px 0;
+}
+
+.post p a:link{
+    border-bottom: 1px solid #000;
+}
+
+#post-title {
+    font-size:1rem;
+    padding: 20px 0;
+    display: inline-block;
+    max-width: 768px;
+}
+
+#post-desc {
+    max-width: 768px;
+}
+
+/* MEDIA */
+
+.post-embed{}
+.post-embed iframe {}
+
+/* IMAGE */
+
+.post-image{ 
+    max-width: 80vw;
+    margin: 0 auto;
+}
+
+/* TEXT */
+
+.post-text {
+    /font-size: 2rem;
+    /letter-spacing:-0.04rem;
+    padding-bottom: 80px;
+}
+
+/* LINK POST */
+
+.post-title-link {
+    padding: 20px!important;
+    margin: 20px auto 10px auto !important;
+    background-color: rgba(160,155,155,.1);
+}
+
+.post-title-link::after {
+    content: " 🔗";
+    padding: 5px;
+    font-size: .7rem;
+}
+
+/* MOBILE */
+
+@media only screen and (max-width: 768px) {
+    
+#posts-container {
+    padding: 0;
+}
+    
+.post-image{
+    max-width: 100vw;
+}    
+.post-embed{
+    position: relative;
+    overflow: hidden;
+    padding-top: 62.5%;
+}
+.post-embed iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+}
+
+
