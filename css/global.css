@@ -173,8 +173,8 @@
 }
 
 #date {
-    font-size: .85rem;
     padding: 20px;
+    font-size: .85rem;
     letter-spacing: -0.008rem;
 }
 
@@ -182,9 +182,8 @@
 
 /* PAGE STYLES */
 
-
-.page-info {
-    margin-top: 50px;
+.main_container{
+    padding: 50px 0;
 }
 
 .content-list {
@@ -199,8 +198,7 @@
 
 
 .content p{
-    padding: 20px 0;
-    max-width:720px;
-    margin: 0 auto;
+    /padding: 20px 0;
+    /max-width:720px;
+    /margin: 0 auto;
 }
-
