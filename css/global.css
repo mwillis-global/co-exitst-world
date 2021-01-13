@@ -193,7 +193,7 @@
 
 .content{
     position: relative;
-    padding: 50px 200px;
+    padding: 50px 180px;
     z-index: 1;
 }
 
@@ -201,5 +201,6 @@
 .content p{
     padding: 20px 0;
     max-width:720px;
+    margin: 0 auto;
 }
 
