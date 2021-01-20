@@ -6,7 +6,7 @@
   });
 
   settings = {
-    channelslug: "feed-iacho1zkhpw"
+    channelslug: "feed-9otnkbvzhws"
   };
 
   posts = [];
@@ -44,7 +44,7 @@
     }).fail(function(jqxhr, textStatus, error) {
       console.log(jqxhr, textStatus, error);
       console.log(jqxhr.statusCode());
-      return $("#loading > h1").text(textStatus + ", " + error);
+      return $("#loading").text(textStatus + ", " + error);
     });
   };
 
