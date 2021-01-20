@@ -18,6 +18,15 @@ body{
     background-color: #fff;
 }
 
+@font-face {  
+  font-family: 'ArialMT';
+  font-weight: normal;
+  font-style: normal;
+  src: url('https://files.cargocollective.com/c865891/ArialMT.woff') format('woff'),
+       url('https://files.cargocollective.com/c865891/ArialMT.woff2') format('woff2'), 
+       url('https://files.cargocollective.com/c865891/ArialMT.ttf') format('truetype');
+}
+
 img {
     max-width: 100% !important;
     display: block;
