@@ -67,6 +67,7 @@ video {
 
 #arena{
     position: relative;
+    padding-top:70px;
 }
 
 p{
