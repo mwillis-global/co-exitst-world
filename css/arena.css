@@ -18,17 +18,10 @@ body{
     background-color: #fff;
 }
 
-@font-face {  
-  font-family: 'ArialMT';
-  font-weight: normal;
-  font-style: normal;
-  src: url('https://files.cargocollective.com/c865891/ArialMT.woff') format('woff'),
-       url('https://files.cargocollective.com/c865891/ArialMT.woff2') format('woff2'), 
-       url('https://files.cargocollective.com/c865891/ArialMT.ttf') format('truetype');
-}
-
 img {
-    max-width: 100% !important;
+    max-width: 100%;
+    height: auto;
+    max-height: 90vh;
     display: block;
 }
 
@@ -64,21 +57,15 @@ video {
     transition: opacity 1.3s 0s, visibility 0s 1.3s;
 }
 
-
 #arena{
     position: relative;
-    padding-top:80px;
+    margin-top: 80px;
 }
-
-p{
-    padding: 5px 0;
-}
-
 
 /* ARENA TEMPLATES */
 
 #posts-container {
-    padding: 0 10px;
+    padding: 10px;
 }
 
 .post {
@@ -89,86 +76,31 @@ p{
     align-items: center;
 }
 
-.post a{
-    /align-self:flex-start;
-}
-
-.post img {
-    /max-width: 100% !important;
-    /padding: 0;
-}
-
-post video {
-    /max-width: 100% !important;
-    /height: auto;
-}
-
 .post p{
-    /display: none;
-    /padding: 10px 0;
+    padding: 10px 0;
 }
 
 .post p a:link{
-    /border-bottom: 1px solid #000;
+    border-bottom: 1px solid rgba(0,0,0,.9);
 }
 
 #post-title {
     display: none;
-
-    /font-size:1rem;
-    /padding: 20px 0;
-    /display: inline-block;
-    /max-width: 768px;
 }
-
-#post-desc {
-    /max-width: 768px;
-}
-
-/* MEDIA */
 
 .post-embed{
     direction: flex;
     justify-content:flex-end;
     align-items:flex-end;
     text-align: center;
-    
-    /background: #f00;
-
-
 }
-.post-embed iframe {
-}
-
-/* IMAGE */
 
 .post-image{ 
-    max-width: 45vw;
     margin: 0 auto;
 }
 
-.post-image img{ 
-    /max-height: 768px;
-}
-
-/* TEXT */
-
 .post-text {
     padding: 80px;
-}
-
-/* LINK POST */
-
-.post-title-link {
-    /padding: 20px!important;
-    /margin: 20px auto 10px auto !important;
-    /background-color: rgba(160,155,155,.1);
-}
-
-.post-title-link::after {
-    /content: " 🔗";
-    /padding: 5px;
-    /font-size: .7rem;
 }
 
 /* MOBILE */
@@ -193,4 +125,13 @@ post video {
     border: 0;
 }
 
+}
+
+@font-face {  
+  font-family: 'ArialMT';
+  font-weight: normal;
+  font-style: normal;
+  src: url('https://files.cargocollective.com/c865891/ArialMT.woff') format('woff'),
+       url('https://files.cargocollective.com/c865891/ArialMT.woff2') format('woff2'), 
+       url('https://files.cargocollective.com/c865891/ArialMT.ttf') format('truetype');
 }
