@@ -19,7 +19,7 @@ body{
 }
 
 a {
-    text-underline:none;
+    text-decoration:none;
     color:inherit;
 }
 
