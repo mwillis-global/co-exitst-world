@@ -18,6 +18,11 @@ body{
     background-color: #fff;
 }
 
+a {
+    text-underline:none;
+    color:inherit;
+}
+
 img {
     max-width: 100%;
     height: auto;
