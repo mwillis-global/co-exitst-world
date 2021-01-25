@@ -11,7 +11,7 @@ html{
 
 body{
     font-family: 'ArialMT', Helvetica Neue, Helvetica, sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.25rem;
     line-height: 1.2;
     color: rgba(0,0,0,.85);
     letter-spacing: -0.0065rem;
@@ -153,7 +153,6 @@ video {
     position: relative;
     overflow: hidden;
     padding-top: 62.5% !important;
-    background: #ff0
 }
     
 .post-embed iframe {
