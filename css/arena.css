@@ -60,9 +60,9 @@ video {
     visibility: hidden;
     opacity: 0;
     
-    -webkit-transition: opacity 100s, visibility 1.4s;
-    -moz-transition: opacity 100s, visibility 1.4s;
-    transition: opacity 100s, visibility 1.4s;    
+    -webkit-transition: opacity 100s, visibility 1.3s;
+    -moz-transition: opacity 100s, visibility 1.3s;
+    transition: opacity 100s, visibility 1.3s;    
 }
 
 /* loading dots*/
