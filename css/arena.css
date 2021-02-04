@@ -58,7 +58,6 @@ video {
     align-items: center;
     justify-content: center;
     background-color: #fff;
-    font-size: 2rem;
     
     z-index: 999;
     visibility: hidden;
