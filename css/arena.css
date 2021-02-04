@@ -117,6 +117,8 @@ video {
 .post p{
     padding: 10px 0;
     max-width:768px;
+    display:block;
+    margin:0 auto;
 }
 
 .post p a:link{
