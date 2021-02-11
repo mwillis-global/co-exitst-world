@@ -130,8 +130,6 @@ video {
 .post-embed{
     text-align: center;
     min-width: 300px !important;
-    width: 95vw;
-
 }
 
 .post-image{ 
@@ -158,7 +156,8 @@ video {
 .post-embed{
     position: relative;
     overflow: hidden;
-    padding-top: 100% !important;
+    padding-top: 62.5% !important;
+    width: 95vw;
 }
     
 .post-embed iframe {
