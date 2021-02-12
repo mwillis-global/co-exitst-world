@@ -117,7 +117,7 @@ video {
 .post p{
     padding: 10px 0;
     max-width:768px;
-    color:rbga(0,0,0,.5);
+    color:rgba(0,0,0,.5);
 }
 
 .post p a:link{
