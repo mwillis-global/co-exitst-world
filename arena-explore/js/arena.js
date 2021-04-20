@@ -6,7 +6,7 @@
   });
 
   settings = {
-    channelslug: "explore-3pod1qmz750"
+    channelslug: " "
   };
 
   posts = [];
