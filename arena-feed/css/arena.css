@@ -133,6 +133,10 @@ video {
     display: none;
 }
 
+#post-desc{
+    display:none;
+}
+
 .post-embed{
     text-align: center;
     min-width: 300px !important;
