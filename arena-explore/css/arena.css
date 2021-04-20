@@ -5,17 +5,21 @@
 }
 
 html{    
-    font-size: 16px;
+    font-size: 15px;
     height: 100%;
 }
 
 body{
     font-family: 'ArialMT', Helvetica Neue, Helvetica, sans-serif;
-    font-size: 1.25rem;
-    line-height: 1.2;
-    color: rgba(0,0,0,.85);
-    letter-spacing: -0.0065rem;
+    font-size: 1rem;
+    line-height: 1.3;
+    color: rgb(0, 0, 0);
     background-color: #fff;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -moz-font-feature-settings: "liga" on;
+
 }
 
 a{
@@ -30,11 +34,9 @@ img {
     display: block;
 }
 
-embed, video {
+video {
     max-width: 100% !important;
     height: auto;
-    min-width: 300px;
-
 }
 
 .is-visible {
@@ -56,15 +58,14 @@ embed, video {
     align-items: center;
     justify-content: center;
     background-color: #fff;
-    font-size: 2rem;
     
     z-index: 999;
     visibility: hidden;
     opacity: 0;
     
-    -webkit-transition: opacity 100s, visibility 1.2s;
-    -moz-transition: opacity 100s, visibility 1.2s;
-    transition: opacity 100s, visibility 1.2s;    
+    -webkit-transition: opacity 100s, visibility 1.3s;
+    -moz-transition: opacity 100s, visibility 1.3s;
+    transition: opacity 100s, visibility 1.3s;    
 }
 
 /* loading dots*/
@@ -96,7 +97,7 @@ embed, video {
 
 #arena{
     position: relative;
-    margin-top: 80px;
+    margin-top: 40px;
 }
 
 /* ARENA TEMPLATES */
@@ -113,18 +114,19 @@ embed, video {
     align-items: center;
 }
 
-.post img{
-    display: block;
-    margin: 0 auto;
-}
-
 .post p{
-    display: block;
     padding: 10px 0;
+    max-width:768px;
+    color:rgba(0,0,0,.5);
 }
 
 .post p a:link{
-    border-bottom: 1px solid rgba(0,0,0,.9);
+    border-bottom: 1px solid rgba(0,0,0,.5);
+}
+
+.post img{
+    display:block;
+    margin: 0 auto;
 }
 
 #post-title {
@@ -133,8 +135,7 @@ embed, video {
 
 .post-embed{
     text-align: center;
-    background-color: aqua;
-    width: 100%;
+    min-width: 300px !important;
 }
 
 .post-image{ 
@@ -143,7 +144,7 @@ embed, video {
 }
 
 .post-text {
-    padding: 80px;
+    padding: 80px 0;
 }
 
 .post-link img{
@@ -162,9 +163,7 @@ embed, video {
     position: relative;
     overflow: hidden;
     padding-top: 62.5% !important;
-    background: #ff0;
     width: 95vw;
-
 }
     
 .post-embed iframe {
@@ -174,7 +173,6 @@ embed, video {
     width: 100%;
     height: 100%;
     border: 0;
-
 }
 
 }
@@ -187,7 +185,3 @@ embed, video {
        url('https://files.cargocollective.com/c865891/ArialMT.woff2') format('woff2'), 
        url('https://files.cargocollective.com/c865891/ArialMT.ttf') format('truetype');
 }
-
-
-
-
