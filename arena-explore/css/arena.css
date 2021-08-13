@@ -232,3 +232,12 @@ video {
     text-shadow: 0.25em 0 0 white, 0.5em 0 0 white;
   }
 }
+
+@font-face {  
+  font-family: 'ArialMT';
+  font-weight: normal;
+  font-style: normal;
+  src: url('https://files.cargocollective.com/c865891/ArialMT.woff') format('woff'),
+       url('https://files.cargocollective.com/c865891/ArialMT.woff2') format('woff2'), 
+       url('https://files.cargocollective.com/c865891/ArialMT.ttf') format('truetype');
+}
