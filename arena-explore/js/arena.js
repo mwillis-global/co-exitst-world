@@ -6,7 +6,7 @@
   });
 
   settings = {
-    channelslug: "channel-1l2my4k9a-y"
+    channelslug: "co-exist-world-explore-feed"
   };
 
   posts = [];
