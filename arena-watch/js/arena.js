@@ -6,7 +6,7 @@
   });
 
   settings = {
-    channelslug: "watch-lj7y_lgf_iq"
+    channelslug: "co-exist-world-explore-feed"
   };
 
   posts = [];
