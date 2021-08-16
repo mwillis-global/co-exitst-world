@@ -142,8 +142,8 @@ video {
 
 .post {
     width: 100%;
-    border: 1px solid rgba(0,0,0,.05);
-    background: #fff;
+    border: 1px solid rgba(0,0,0,.02);
+    background: rgba(0,0,0,.06);
     border-radius: 10px;
     margin: 50px 0;
 }
