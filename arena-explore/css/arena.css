@@ -18,7 +18,6 @@ body{
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -moz-font-feature-settings: "liga" on;
-    background-color:#f5fafa;
 }
 
 a{
@@ -84,7 +83,7 @@ video {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    background: #FFF;
     z-index: 999;
     visibility: hidden;
     opacity: 0;
@@ -109,7 +108,7 @@ video {
 }
 
 .intro {
-    border: 1px solid rgba(0,0,0,.05);
+    /border: 1px solid rgba(0,0,0,.05);
     background: #fff;
     border-radius: 10px;
     margin: 20px;
@@ -169,7 +168,7 @@ video {
 }
 
 .link-box img{
-    width: 120px;
+    width: 160px;
     display: block;
     border-radius: 10px 0px 0px 10px;
 }
@@ -201,7 +200,7 @@ video {
 .post-source{
     margin-top:.5rem;
     font-size: .65rem;
-    color: rgba(0,0,0,.4);
+    color: rgba(0,0,0,.3);
     letter-spacing: .01rem;
     font-weight: normal;
     align-self: flex-start;
