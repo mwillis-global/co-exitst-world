@@ -115,7 +115,7 @@ video {
     padding: 25px 30px;
     font-weight: 500;
     font-size: 1rem;
-    display:none;
+    display: none;
 }
 
 .intro a{
@@ -142,11 +142,12 @@ video {
 }
 
 .post {
+    max-width: 300px;
     width: 100%;
     border: 1px solid rgba(0,0,0,.02);
     background: rgba(0,0,0,.06);
     border-radius: 10px;
-    margin: 50px 0;
+    margin: 50px auto;
 }
 
 .post:hover { 
@@ -165,11 +166,12 @@ video {
 
 .link-box{
     display:flex;
-    flex-direction: row;3
+    flex-direction: column;
+    width: 300px;
 }
 
 .link-box img{
-    width: 160px;
+    width: 300px;
     display: block;
     border-radius: 10px 0px 0px 10px;
 }
