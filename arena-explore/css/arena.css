@@ -165,7 +165,7 @@ video {
 
 .link-box{
     display:flex;
-    flex-direction: row;
+    flex-direction: row;3
 }
 
 .link-box img{
