@@ -157,7 +157,7 @@ video {
 
 .post-link img{
     margin: 0 auto;
-    width:80%;
+    max-width:540px;
 }
 
 
