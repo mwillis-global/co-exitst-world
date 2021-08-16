@@ -18,6 +18,7 @@ body{
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -moz-font-feature-settings: "liga" on;
+    background-color:#f5fafa;
 }
 
 a{
@@ -104,14 +105,15 @@ video {
 .intro-wrap {
     max-width: 768px;
     margin:0 auto;
-    /margin-top: 40px;
+    margin-top: 60px;
 }
 
 .intro {
-    background-color: rgba(0,0,0,.05);
+    border: 1px solid rgba(0,0,0,.05);
+    background: #fff;
+    border-radius: 10px;
     margin: 20px;
     padding: 25px 30px;
-    border-radius: 2px;
     font-weight: 500;
     font-size: 1rem;
 }
@@ -141,10 +143,10 @@ video {
 
 .post {
     width: 100%;
-    background-color: rgba(0,0,0,.05);
-    margin: 50px 0;
+    border: 1px solid rgba(0,0,0,.05);
+    background: #fff;
     border-radius: 10px;
-    /transition: all .3s ease-in-out;
+    margin: 50px 0;
 }
 
 .post:hover { 
@@ -167,7 +169,7 @@ video {
 }
 
 .link-box img{
-    width: 240px;
+    width: 120px;
     display: block;
     border-radius: 10px 0px 0px 10px;
 }
@@ -199,7 +201,8 @@ video {
 .post-source{
     margin-top:.5rem;
     font-size: .65rem;
-    color: rgba(0,0,0,.6);
+    color: rgba(0,0,0,.4);
+    letter-spacing: .01rem;
     font-weight: normal;
     align-self: flex-start;
     
