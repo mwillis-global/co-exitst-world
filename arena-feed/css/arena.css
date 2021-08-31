@@ -199,7 +199,7 @@ embed, video {
 }  
     
 .post-text {
-    min-width: 300px;
+    min-width: inherit !imporant;
 }
     
 .post-embed{
