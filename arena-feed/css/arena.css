@@ -196,7 +196,12 @@ embed, video {
     
 .post-image{
     max-width: 100vw;
-}    
+}  
+    
+.post-text {
+    min-width: 300px;
+}
+    
 .post-embed{
     position: relative;
     overflow: hidden;
