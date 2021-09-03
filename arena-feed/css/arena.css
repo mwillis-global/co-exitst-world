@@ -10,7 +10,7 @@ html{
 }
 
 body{
-    font-family: 'Union', Helvetica Neue, Helvetica, sans-serif;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
     font-size: 1rem;
     line-height: 1.3;
     color: rgb(0, 0, 0);
@@ -57,7 +57,7 @@ embed, video {
     width: 100%;
     height: 100%;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     background-color: #fff;
     
@@ -75,6 +75,8 @@ embed, video {
 #loading:after {
   content: ".";
   animation: dots .65s steps(5, end) infinite;
+  padding: 1rem 0;
+
 }
 
 @keyframes dots {
@@ -189,6 +191,10 @@ embed, video {
 
 @media only screen and (max-width: 768px) {
     
+#loading{
+    align-items: center;
+} 
+    
 .post img{
     width: 100vw !important;
     max-height: inherit!important;
@@ -220,14 +226,4 @@ embed, video {
 
 }
 
-}
-
-
-@font-face {  
-  font-family: 'Union';
-  font-weight: normal;
-  font-style: normal;
-  src: url('https://files.cargocollective.com/c841411/Union-Regular.woff') format('woff'),
-       url('https://files.cargocollective.com/c841411/Union-Regular.woff2') format('woff2'), 
-       url('https://files.cargocollective.com/c841411/Union-Regular.ttf') format('truetype');
 }
