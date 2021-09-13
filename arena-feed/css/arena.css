@@ -60,7 +60,6 @@ embed, video {
     align-items: flex-start;
     justify-content: center;
     background-color: #fff;
-    letter-spacing:0.3rem;
     
     z-index: 999;
     visibility: hidden;
