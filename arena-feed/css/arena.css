@@ -101,7 +101,7 @@ embed, video {
 
 #arena{
     position: relative;
-    margin-top: 60px;
+    margin-top: 0;
 }
 
 /* ARENA TEMPLATES */
