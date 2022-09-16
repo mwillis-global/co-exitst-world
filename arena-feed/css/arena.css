@@ -74,27 +74,30 @@ embed, video {
 #loading:after {
   content: ".";
   animation: dots .65s steps(5, end) infinite;
-  padding: 1rem;
-
+  font-size:2rem;
+  color: darkgrey;
 }
 
+
 @keyframes dots {
-  0%,
-  20% {
-    color: rgba(0, 0, 0, 0);
-    text-shadow: 0.25em 0 0 rgba(0, 0, 0, 0), 0.5em 0 0 rgba(0, 0, 0, 0);
-  }
+  0%, 20% {
+    color: rgba(0,0,0,0);
+    text-shadow:
+      .25em 0 0 rgba(0,0,0,0),
+      .5em 0 0 rgba(0,0,0,0);}
   40% {
-    color: black;
-    text-shadow: 0.25em 0 0 rgba(0, 0, 0, 0), 0.5em 0 0 rgba(0, 0, 0, 0);
-  }
+    color: darkgrey;
+    text-shadow:
+      .25em 0 0 rgba(0,0,0,0),
+      .5em 0 0 rgba(0,0,0,0);}
   60% {
-    text-shadow: 0.25em 0 0 black, 0.5em 0 0 rgba(0, 0, 0, 0);
-  }
-  80%,
-  100% {
-    text-shadow: 0.25em 0 0 black, 0.5em 0 0 black;
-  }
+    text-shadow:
+      .25em 0 0 darkgrey,
+      .5em 0 0 rgba(0,0,0,0);}
+  80%, 100% {
+    text-shadow:
+      .25em 0 0 darkgrey,
+      .5em 0 0 darkgrey;}
 }
  
 
