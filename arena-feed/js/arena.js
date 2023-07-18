@@ -6,7 +6,7 @@
   });
 
   settings = {
-    channelslug: "co-exist-world-feed"
+    channelslug: "other-earth-online-feed"
   };
 
   posts = [];
