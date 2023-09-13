@@ -119,7 +119,6 @@ embed, video {
 
 
 #posts-container {
-    padding: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -131,7 +130,7 @@ embed, video {
     justify-content: center;
     align-items: center;
     position: relative;
-    padding: 1rem;
+    padding: 1.25rem;
 }
 
 .post img{
@@ -235,7 +234,7 @@ embed, video {
     position: relative;
     overflow: hidden;
     padding-top: 62.5% !important;
-    width: 95vw;
+    width: 92.5vw;
 
 }
     
