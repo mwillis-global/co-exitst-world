@@ -25,11 +25,18 @@ body {
     font-weight:400;
 }
 
-#content{
+#page{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+}
+
+#content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
 }
 
 a {
@@ -38,22 +45,26 @@ a {
     line-height: 1.2;
     font-weight:400;
 }
-
+    
 p{
-    padding:1rem;
+    padding:0.2rem 1rem;
     display:block;
     max-width:300px;
     text-align:center
 }
-
+ 
 </style>
 
 </head>
 
 <body>
     
+<div id="page">
 <div id="content">
-    <p>Thank you for joing<br>Other Earth :)</p>
+    <p>Thank you for joining<br>Other Earth :)</p>
+</div>
+</div>
+
 </body>
 
 </html>
