@@ -25,11 +25,18 @@ body {
     font-weight:400;
 }
 
-#content{
+#page{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+}
+
+#content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
 }
 
 a {
@@ -40,7 +47,7 @@ a {
 }
     
 p{
-    padding:1rem;
+    padding:0.2rem 1rem;
     display:block;
     max-width:300px;
     text-align:center
@@ -52,9 +59,11 @@ p{
 
 <body>
     
+<div id="page">
 <div id="content">
-    <p>Something went wrong.</p><br>
+    <p>Somethings gone wrong.</p>
     <p><a href="https://mwillis-global.github.io/other-earth/signup-form/form.html">Try again?</a></p>
+</div>
 </div>
 
 </body>
