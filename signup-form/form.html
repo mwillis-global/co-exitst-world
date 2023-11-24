@@ -23,8 +23,9 @@
 body {
     margin: 0;
     padding:0;
-    color: rgba(0,0,0,.85);
+    color: #2669db;
     font-family: 'Sometype Mono', monospace;
+    font-size:15px;
     line-height: 1.2;
     font-weight:500;
 }
@@ -33,20 +34,27 @@ body {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
+    flex-direction: column;
     height: 100vh;
 }
 
 a {
-    color: rgba(0,0,0,.85);
+    color: #2669db;
     font-family: 'Sometype Mono', monospace;
     line-height: 1.2;
     font-weight:500;
 }
 
 p{
-    padding:1rem;
+    padding-bottom:.25rem;
     display:block;
     text-align:center
+}
+
+@media only screen and (min-width: 768px) {
+        
+body{font-size:19px !important;}
+        
 }
 
 .audienceful-form { 
