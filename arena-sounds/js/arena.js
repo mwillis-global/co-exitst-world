@@ -1,6 +1,6 @@
 // Define constants
 const settings = {
-  channelslug: "other-earth-online-feed",
+  channelslug: "other-earth-online-sounds",
 };
 const queryOptions = {
   page: 0,
