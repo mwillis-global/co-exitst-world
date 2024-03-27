@@ -1,0 +1,216 @@
+/* Reset and Box Model */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Base Styles */
+html {
+    font-size: 16px;
+    height: 100%;
+}
+
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 1rem;
+    line-height: 1.3;
+    color: #000;
+    background-color: #fff;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -moz-font-feature-settings: "liga" on;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Images and Embeds */
+img,
+embed,
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Loading Indicator */
+.is-visible {
+    visibility: visible;
+    opacity: 1;
+}
+
+.not-visible {
+    visibility: hidden;
+    opacity: 0;
+}
+
+#loading {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    z-index: 999;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 100s, visibility 1.3s;
+}
+
+/* Loading Dots */
+#loading:after {
+    content: ".";
+    animation: dots .65s steps(5, end) infinite;
+    font-size: 2rem;
+    color: darkgrey;
+}
+
+@keyframes dots {
+    0%, 20% {
+        color: rgba(0, 0, 0, 0);
+        text-shadow: .25em 0 0 rgba(0, 0, 0, 0), .5em 0 0 rgba(0, 0, 0, 0);
+    }
+    40% {
+        color: darkgrey;
+        text-shadow: .25em 0 0 rgba(0, 0, 0, 0), .5em 0 0 rgba(0, 0, 0, 0);
+    }
+    60% {
+        text-shadow: .25em 0 0 darkgrey, .5em 0 0 rgba(0, 0, 0, 0);
+    }
+    80%, 100% {
+        text-shadow: .25em 0 0 darkgrey, .5em 0 0 darkgrey;
+    }
+}
+
+/* Arena Styles */
+#arena {
+    position: relative;
+    margin-top: 0;
+}
+
+/* Posts Container */
+#posts-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+}
+
+/* Post Styles */
+.post {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 3rem;
+}
+
+.post img {
+    display: block;
+    max-height: 100vh;
+    width: auto;
+}
+
+.post p {
+    display: block;
+    padding: 10px;
+    max-width: 400px;
+    color: rgba(100, 100, 100, 1);
+    font-size: 0.8rem;
+}
+
+.post p a:link {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.9);
+}
+
+/* Post Title and Description */
+#post-title,
+#post-desc {
+    display: none;
+}
+
+/* Post Embed */
+.post-embed {}
+
+
+/* Post Image */
+.post-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+/* Post Text */
+.post-text {
+    display: block;
+    padding: 80px 0;
+    min-width: 500px;
+}
+
+.post-text p {
+    font-size: 2rem;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* Post Link */
+.post-link {
+    border: 1px solid #f2f2f2;
+    position: relative;
+}
+
+.post-link-arrow {
+    position: absolute;
+    bottom: 1.75rem;
+    right: 1.75rem;
+    width: 12px;
+    height: 12px;
+    border-radius: 50px;
+    background-color: rgba(51, 102, 255, 1);
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 768px) {
+    #arena {
+        margin-top: 70px;
+    }
+
+    #loading {
+        align-items: center;
+    }
+
+    .post img {
+        width: 100vw !important;
+        max-height: inherit !important;
+    }
+
+    .post-image {
+        max-width: 100vw;
+    }
+
+    .post-text {
+        min-width: inherit !important;
+    }
+
+    .post-embed {
+        position: relative;
+        overflow: hidden;
+        padding-top: 100% !important;
+        width: 100vw;
+    }
+
+    .post-embed iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 0;
+    }
+}
